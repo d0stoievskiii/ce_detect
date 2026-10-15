@@ -1,0 +1,33 @@
+﻿ce_detect/
+├── ce_detect/
+│   ├── CheatEngineDetector.vcxproj
+│   ├── CheatEngineDetector.vcxproj.filters
+│   ├── CheatEngineDetector.sln
+│   ├── include/
+│   │   ├── DetectionTypes.hpp
+│   │   ├── IDetector.hpp
+│   │   ├── DetectionEngine.hpp
+│   │   ├── ScoreCalculator.hpp
+│   │   └── ConsoleReporter.hpp
+│   │
+│   └── src/
+│       ├── main.cpp
+│       ├── DetectionEngine.cpp
+│       ├── ScoreCalculator.cpp
+│       ├── ConsoleReporter.cpp
+│       │
+│       └── detectors/
+│           ├── ProcessNameDetector.hpp
+│           ├── ProcessNameDetector.cpp
+│           ├── ProcessMetadataDetector.hpp
+│           ├── ProcessMetadataDetector.cpp
+│           ├── ModuleDetector.hpp
+│           ├── ModuleDetector.cpp
+│           ├── WindowDetector.hpp
+│           ├── WindowDetector.cpp
+│           ├── MemorySignatureDetector.hpp
+│           ├── MemorySignatureDetector.cpp
+│           ├── DriverDetector.hpp
+│           └── ...
+│
+└── map.txt
